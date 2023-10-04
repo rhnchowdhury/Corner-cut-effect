@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    background-color: slateblue;
+}
+
+.cut-corner {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    background-color: rebeccapurple;
+    background: linear-gradient(120deg, transparent 20px, #fff 0) top left,
+        linear-gradient(-120deg, transparent 20px, #fff 0) top right,
+        linear-gradient(-55deg, transparent 20px, #fff 0) bottom right,
+        linear-gradient(55deg, transparent 20px, #fff 0) bottom left;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 35%;
+    color: slateblue;
+}
